@@ -4,12 +4,11 @@ Currently still undergoing heavy development. (Since I've done more for [Ted's w
 
 ### To-Do:
 
- - [ ] Add more socials to Social links (github,...)
- - [ ] Change Colors?
- - [ ] Make buttons go bounce on hover
- - [ ] Spotify now listening?
- - [ ] Add Beggar "Project"
-
+- [ ] Add more socials to Social links (github,...)
+- [ ] Change Colors?
+- [ ] Make buttons go bounce on hover
+- [ ] Spotify now listening?
+- [ ] Add Beggar "Project"
 
 ### How to prettier?
 
