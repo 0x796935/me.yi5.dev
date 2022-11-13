@@ -1,6 +1,6 @@
 :root {
   --white: #dfdfdf;
-  --font_main: 'Comfortaa', sans-serif;
+  --font_main: "Comfortaa", sans-serif;
   --main_gray: #303e40;
   --secondary_gray: #636464;
   --background_gray: #2a2525;
@@ -16,8 +16,8 @@
 }
 
 @font-face {
-  font-family: 'comfortaa';
-  src: url('/assets/fonts/Comfortaa.ttf')
+  font-family: "comfortaa";
+  src: url("/assets/fonts/Comfortaa.ttf");
 }
 
 body {
@@ -44,7 +44,8 @@ canvas {
   height: 100%;
   background-color: var(--background_gray);
   /*background-image: url("https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1208&q=80");
-  */background-repeat: no-repeat;
+  */
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -64,14 +65,19 @@ canvas {
 }
 
 .box_main_title {
-  background-image: linear-gradient(0deg, var(--particle_color), var(--particle_lines), var(--particle_color));
+  background-image: linear-gradient(
+    0deg,
+    var(--particle_color),
+    var(--particle_lines),
+    var(--particle_color)
+  );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   animation: stripes 3s linear infinite;
-  
+
   /* text glow */
   /* text-shadow: 0 0 1px var(--glow_color), 0 0 2px var(--glow_color), 0 0 3px var(--glow_color), 0 0 4px var(--glow_color), 0 0 5px var(--glow_color), 0 0 6px var(--glow_color), 0 0 7px var(--glow_color); */
-  
+
   font-size: 3rem;
   font-family: var(--font_main);
   font-weight: 700;
@@ -81,7 +87,7 @@ canvas {
   /* margin-bottom: 0.5rem; */
 }
 
-.box_round_corners { 
+.box_round_corners {
   margin: 20px;
   border-radius: 12px;
   outline: solid;
@@ -104,7 +110,7 @@ canvas {
   outline-color: rgba(var(--particle_color_rgb, 0.1));
 }
 
-.inner_box_title{
+.inner_box_title {
   font-size: 1.5em;
   font-weight: bold;
   color: var(--white);
@@ -114,7 +120,7 @@ canvas {
   font-size: 1.3em;
   font-weight: normal;
 }
-.inner_box_title.small.no_margin{
+.inner_box_title.small.no_margin {
   margin-bottom: 0;
 }
 .inner_box_title.light {
@@ -129,5 +135,5 @@ canvas {
 
 .social_icon {
   height: 30px;
-  fill:rgba(var(--particle_color_rgb, 0.1))
+  fill: rgba(var(--particle_color_rgb, 0.1));
 }
